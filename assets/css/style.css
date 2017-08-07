@@ -12,7 +12,7 @@
 	text-align: center;
 }
 body{
-	background-color: #763551;
+	background-color:#1f2026;
 	font-family: 'Raleway', sans-serif;
 }
 /* COLOR DE FONDO*/
@@ -20,12 +20,14 @@ body{
 	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 	clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 	height: 670px;
-	background-color: #14121f;
+	padding:0;
 }
 #fondox{
-	background-image: url('../image/triangulos.png');
-	width: 100%;
-	height: 170px;
+	background-image: url('../image/3BD.png');
+	width:100%;
+	height: 700px;
+	background-repeat: none;
+	background-position: bottom;
 	margin: 0;
 	padding:0;
 }
@@ -39,6 +41,8 @@ body{
 	padding-left: 100px;
 	padding-top: 30px;
 	font-size: 17px;
+	text-align: center;
+	padding-right: 50px;
 }
 /*FOTO DE PERFIL*/
 .foto{
@@ -50,21 +54,27 @@ body{
 
 /*SKILLS*/
 #habilidades{
-	background-color: #e6e7f4;
+	background-color:whitesmoke;
 	-webkit-clip-path: polygon(0 0, 100% 29%, 100% 71%, 0 100%);
 	clip-path: polygon(0 0, 100% 29%, 100% 71%, 0 100%);
-	height: 900px;
+	height: 800px;
 
-}
-.skills{
-	display: inline-block;
 }
 .poc{
 	margin-top: 270px;
 }
-
 .porte{
-	width: 200px;
+	width: 170px;
+	padding-top: 50px;
+}
+#sass{
+	padding-top: 150px;
+}
+#css{
+	padding-top: 150px;
+}
+#jquery{
+	padding-top: 300px;
 }
 /*PORTFOLIO*/
 #portfolio{
@@ -80,7 +90,29 @@ body{
 #info{
 	-webkit-clip-path: polygon(0% 261px, 100% 0, 100% 100%, 0 100%);
 	clip-path: polygon(0% 261px, 100% 0, 100% 100%, 0 100%);
-	background-color: #14121f;
+	background-color:whitesmoke;
 	height: 300px;
 	z-index: 2;
+}
+.fa{
+	font-size: 30px;
+}
+.circulo{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border:5px solid #1f2026;
+	margin-top: 100px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 50px;
+}
+.icon{
+	color: #1f2026;
+}
+.p-info{
+	color: #1f2026;
+	font-size: 15px;
+	text-align: center;
 }
