@@ -10,18 +10,20 @@
 .hit-the-floor {
 	text-align: center;
 }
+body{
+	background-color: #763551;
+}
 /* COLOR DE FONDO*/
 #portada{
 	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 	clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
-	height: 800px;
-	background-color: yellow;
+	height: 670px;
+	background-color: #14121f;
 }
 
 /*ABOUT ME*/
 #about-me{
 	
-	background-color: red;
 }
 /*FOTO DE PERFIL*/
 #foto{
@@ -33,7 +35,7 @@
 
 /*SKILLS*/
 #habilidades{
-	background-color: green;
+	background-color: #e6e7f4;
 	-webkit-clip-path: polygon(0 0, 100% 29%, 100% 71%, 0 100%);
 	clip-path: polygon(0 0, 100% 29%, 100% 71%, 0 100%);
 	height: 900px;
@@ -58,7 +60,6 @@
 
 /*PORTFOLIO*/
 #portfolio{
-	background-color: black;
 	height: 300px;
 	z-index: -1;
 }
@@ -71,7 +72,7 @@
 #info{
 	-webkit-clip-path: polygon(0% 261px, 100% 0, 100% 100%, 0 100%);
 	clip-path: polygon(0% 261px, 100% 0, 100% 100%, 0 100%);
-	background-color: orange;
+	background-color: #14121f;
 	height: 300px;
 	z-index: 2;
 }
