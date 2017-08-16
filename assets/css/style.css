@@ -20,21 +20,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
-
-/* ANIMACION ANIMACION ANIMACIO */
-.hit-the-floor {
-	color: #fff;
-	font-size: 8em;
-	font-weight: bold;
-	font-family: Helvetica;
-	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-}
-
-.hit-the-floor {
-	padding-top: 190px;
-	text-align: center;
-}
 body{
 	
 	background: rgba(124,0,213,1);
@@ -45,6 +30,16 @@ body{
 	background: -ms-linear-gradient(left, rgba(124,0,213,1) 0%, rgba(207,0,138,1) 100%);
 	background: linear-gradient(to right, rgba(124,0,213,1) 0%, rgba(207,0,138,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c00d5', endColorstr='#cf008a', GradientType=1 );font-family: 'Raleway', sans-serif;
+}
+
+/*------portada -------*/
+#image_nanny_header{
+	width: 80%;
+	margin-top: 30px;
+}
+#image_titulo_header{
+	margin-top: 50px;
+	width: 80%;
 }
 /* COLOR DE FONDO*/
 #portada{
@@ -62,107 +57,111 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e500', endColorstr='#e73827', GradientType=1 );
 	text-shadow:1px #ccc;
 	-webkit-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
--moz-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
-z-index: 2;
+	-moz-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
+	box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
+	z-index: 2;
 }
-/*#fondox{
-	background-image: url('../image/3BD.png');
-	width:100%;
-	height: 700px;
-	background-repeat: none;
-	background-position: bottom;
+#p-portada{
+	font-size: 26px;
+	font-weight:bold;
+	color: whitesmoke;
+	text-align: center;
+}
+
+/*-------ABOUT ME--------*/
+#about-me{
+	height: 420px;
+}
+#p-about{
+	color: whitesmoke;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+	border:2px solid white;
+}
+/*FOTO DE PERFIL*/
+.foto{
+	width: 300px;
+}
+.perfil{
+	margin-left: 150px;
+}
+/*----------SKILLS----------*/
+#habilidades{
+	-webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+	height: 800px;
+	z-index: 1;
+	background: rgba(83,120,149,1);
+	background: -moz-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(83,120,149,1)), color-stop(100%, rgba(9,32,63,1)));
+	background: -webkit-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
+	background: -o-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
+	background: -ms-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
+	background: linear-gradient(to right, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#537895', endColorstr='#09203f', GradientType=1 );
+}
+#fondo-habilidades{
+	background-image: url(../images/Nanny_Skills.png);
+	background-size: cover;
+	z-index: 2;
+	height: 800px;
+	padding: 0;
 	margin: 0;
-	padding:0;
-	}*/
-	#p-portada{
-		font-size: 26px;
-		font-weight:bold;
-		color: whitesmoke;
-		text-align: center;
-	}
+}
+.poc{
+	margin-top: 270px;
+}
+.porte{
+	width: 170px;
+	padding-top: 50px;
+}
+#sass{
+	padding-top: 100px;
+}
+#css{
+	padding-top: 100px;
+}
+#jquery{
+	padding-top: 240px;
+}
+/*----------PORTFOLIO----------*/
+#portfolio{
+	height: 300px;
+	z-index: -1;
+}
+.holaa{
+	font-size: 20px;
+	color: white;
+}
 
-	/*-------ABOUT ME--------*/
-	#about-me{
-		height: 420px;
-	}
-	#p-about{
-		color: whitesmoke;
-		font-size: 20px;
-		padding: 20px;
-		text-align: center;
-		border:2px solid white;
-	}
-	/*----------FOTO DE PERFIL----------*/
-	.foto{
-		border-radius: 48%;
-		border: 5px solid white;
-		width: 300px;
-	}
-	.perfil{
-		margin-left: 150px;
-	}
-	/*----------SKILLS----------*/
-	#habilidades{
-		background-color:whitesmoke;
-		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-		clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-		height: 800px;
-
-	}
-	.poc{
-		margin-top: 270px;
-	}
-	.porte{
-		width: 170px;
-		padding-top: 50px;
-	}
-	#sass{
-		padding-top: 100px;
-	}
-	#css{
-		padding-top: 100px;
-	}
-	#jquery{
-		padding-top: 240px;
-	}
-	/*----------PORTFOLIO----------*/
-	#portfolio{
-		height: 300px;
-		z-index: -1;
-	}
-	.holaa{
-		font-size: 20px;
-		color: white;
-	}
-
-	/*----------INFOOOOOOO----------*/
-	#info{
-		-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-		clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-		background-color: white;
-		height: 300px;
-		z-index: 2;
-	}
-	.fa{
-		font-size: 30px;
-	}
-	.circulo{
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		border:5px solid #1f2026;
-		margin-top: 100px;
-		display: inline-block;
-		text-align: center;
-		padding-top: 10px;
-		margin-left: 50px;
-	}
-	.icon{
-		color: #1f2026;
-	}
-	.p-info{
-		color: #1f2026;
-		font-size: 15px;
-		text-align: center;
-	}
+/*----------INFOOOOOOO----------*/
+#info{
+	-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+	background-color: white;
+	height: 300px;
+	z-index: 2;
+}
+.fa{
+	font-size: 30px;
+}
+.circulo{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border:5px solid #1f2026;
+	margin-top: 100px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	margin-left: 50px;
+}
+.icon{
+	color: #1f2026;
+}
+.p-info{
+	color: #1f2026;
+	font-size: 15px;
+	text-align: center;
+}
