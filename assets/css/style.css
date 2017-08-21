@@ -76,7 +76,7 @@ body{
 	height: 470px;
 }
 #p-about{
-	width: 600px;
+	width: 80%;
 	color: whitesmoke;
 	font-size: 22px;
 	padding: 20px;
@@ -84,7 +84,6 @@ body{
 	border:2px solid white;
 	margin-top: 50px;
 	margin-left: 30px;
-	margin-right: 30px;
 }
 /*FOTO DE PERFIL*/
 .foto{
