@@ -21,7 +21,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 body{
-	
+	width: 100%;
 	background: rgba(124,0,213,1);
 	background: -moz-linear-gradient(left, rgba(124,0,213,1) 0%, rgba(207,0,138,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(124,0,213,1)), color-stop(100%, rgba(207,0,138,1)));
@@ -31,7 +31,9 @@ body{
 	background: linear-gradient(to right, rgba(124,0,213,1) 0%, rgba(207,0,138,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c00d5', endColorstr='#cf008a', GradientType=1 );font-family: 'Raleway', sans-serif;
 }
-
+.row{
+	margin-bottom: 0;
+}
 /*------portada -------*/
 #image_nanny_header{
 	width: 80%;
@@ -58,7 +60,7 @@ body{
 	background: -ms-linear-gradient(left, rgba(241,229,0,1) 0%, rgba(247,33,0,1) 99%, rgba(231,56,39,1) 100%);
 	background: linear-gradient(to right, rgba(241,229,0,1) 0%, rgba(247,33,0,1) 99%, rgba(231,56,39,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e500', endColorstr='#e73827', GradientType=1 );
-	text-shadow:1px #ccc;
+
 	-webkit-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
 	-moz-box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
 	box-shadow: 18px 21px 39px 1px rgba(0,0,0,0.55);
@@ -73,7 +75,7 @@ body{
 
 /*-------ABOUT ME--------*/
 #about-me{
-	height: 470px;
+	height: 100%;
 }
 #p-about{
 	width: 80%;
@@ -88,9 +90,6 @@ body{
 /*FOTO DE PERFIL*/
 .foto{
 	width: 300px;
-}
-.perfil{
-
 }
 /*----------SKILLS----------*/
 #habilidades{
@@ -114,6 +113,8 @@ body{
 	height: 800px;
 	padding: 0;
 	margin: 0;
+	position: relative;
+	right: 15px;
 }
 .poc{
 	margin-top: 270px;
@@ -122,18 +123,9 @@ body{
 	width: 170px;
 	padding-top: 50px;
 }
-#sass{
-	padding-top: 100px;
-}
-#css{
-	padding-top: 100px;
-}
-#jquery{
-	padding-top: 240px;
-}
 /*----------PORTFOLIO----------*/
 #portfolio{
-	height: 300px;
+	height: 500px;
 	z-index: -1;
 }
 .holaa{
@@ -143,9 +135,8 @@ body{
 
 /*----------INFOOOOOOO----------*/
 #info{
-	-webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-	clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
-	background: rgba(241,229,0,1);
+	-webkit-clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);background: rgba(241,229,0,1);
 	background: -moz-linear-gradient(left, rgba(241,229,0,1) 0%, rgba(247,33,0,1) 99%, rgba(231,56,39,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,229,0,1)), color-stop(99%, rgba(247,33,0,1)), color-stop(100%, rgba(231,56,39,1)));
 	background: -webkit-linear-gradient(left, rgba(241,229,0,1) 0%, rgba(247,33,0,1) 99%, rgba(231,56,39,1) 100%);
@@ -154,11 +145,21 @@ body{
 	background: linear-gradient(to right, rgba(241,229,0,1) 0%, rgba(247,33,0,1) 99%, rgba(231,56,39,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e500', endColorstr='#e73827', GradientType=1 );
 	height: 300px;
-	z-index: 2;
+	z-index: -1;
+	position: relative;
+	top: 20px;
+}
+.icons-contacto{
+	color: white;
+	font-size: 35px;
+	padding: 10px;
+	margin-top: 2px;
 }
 #info-anais{
 	text-align: right;
 	font-size: 30px;
 	color: white;
-	padding-top: 50px;
+	padding: 15px;
+	padding-top: 70px;
+	z-index: 2;
 }
