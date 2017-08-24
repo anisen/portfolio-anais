@@ -77,6 +77,9 @@ body{
 #about-me{
 	height: 100%;
 }
+#texto-aboutMe{
+	margin-top: 80px;
+}
 #p-about{
 	width: 80%;
 	color: whitesmoke;
@@ -89,15 +92,17 @@ body{
 }
 /*FOTO DE PERFIL*/
 .foto{
-	width: 300px;
+	width: 100%;
+	padding-top: 70px;
 }
 /*----------SKILLS----------*/
 #habilidades{
 	-webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
-	height: 800px;
+	height: 100%;
 	z-index: -1;
 	padding:0;
+	margin:0;
 	background: rgba(83,120,149,1);
 	background: -moz-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(83,120,149,1)), color-stop(100%, rgba(9,32,63,1)));
@@ -110,15 +115,15 @@ body{
 #fondo-habilidades{
 	background-image: url(../images/Nanny_Skills.png);
 	background-size: cover;
+	background-position: center;
 	z-index: 1;
-	height: 800px;
+	width: 100%;
+	height: 100%;
 	padding: 0;
 	margin: 0;
-	position: relative;
-	right: 8px;
 }
 #texto-skills{
-	margin-top: 100px;
+	margin-top: 140px;
 }
 .porte{
 	width: 170px;
@@ -132,6 +137,7 @@ body{
 } 
 #contenedor-skills{
 	margin-top: 30px;
+	padding-bottom: 160px;
 }
 /* filas */
 .primerFila-1{
@@ -197,11 +203,11 @@ body{
 	/*------ ABOUT ME -------*/
 	#p-about{
 		width: 100%;
-		font-size: 20px;
+		font-size: 19px;
 		padding: 9px;
 		text-align: left;
 		border:2px solid white;
-		margin: 10px;
+		margin: 0;
 	}
 	#texto-aboutMe{
 		margin-top: 30px;
@@ -224,5 +230,8 @@ body{
 		color: white;
 		padding: 15px;
 		padding-top: 120px;
+	}
+	#info{
+        height: 250px;
 	}
 }
