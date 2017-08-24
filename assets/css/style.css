@@ -97,6 +97,7 @@ body{
 	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 	height: 800px;
 	z-index: -1;
+	padding:0;
 	background: rgba(83,120,149,1);
 	background: -moz-linear-gradient(left, rgba(83,120,149,1) 0%, rgba(9,32,63,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(83,120,149,1)), color-stop(100%, rgba(9,32,63,1)));
@@ -114,23 +115,20 @@ body{
 	padding: 0;
 	margin: 0;
 	position: relative;
-	right: 15px;
+	right: 8px;
 }
 #texto-skills{
 	margin-top: 100px;
-}
-.poc{
-	margin-top: 270px;
 }
 .porte{
 	width: 170px;
 	padding-top: 50px;
 }
 .porte-icons{
-	width: 90px;
-	padding-top: 20px;
-	margin-left: 30px;
-	padding-bottom: 20px;
+	width: 50%;
+	padding-top: 10%;
+	margin-left: 10%;
+	padding-bottom: 10%;
 } 
 #contenedor-skills{
 	margin-top: 30px;
@@ -150,10 +148,6 @@ body{
 #portfolio{
 	height: 500px;
 	z-index: -1;
-}
-.holaa{
-	font-size: 20px;
-	color: white;
 }
 
 /*----------INFOOOOOOO----------*/
@@ -184,7 +178,6 @@ body{
 	color: white;
 	padding: 15px;
 	padding-top: 70px;
-	z-index: 2;
 }
 
 /* ------ 	R E S P O N S I V E ------ */
@@ -192,7 +185,7 @@ body{
 @media only screen and (max-width: 600px){
 	/*------ PORTADA -------*/
 	#portada{
-		height: 400px;
+		height: 450px;
 	}
 	#image_titulo_header{
 		width: 100%;
@@ -210,9 +203,26 @@ body{
 		border:2px solid white;
 		margin: 10px;
 	}
+	#texto-aboutMe{
+		margin-top: 30px;
+	}
 	/*------ SKILLS -------*/
-
+	.porte-icons{
+		width: 80%;
+	}
+	#contenedor-skills{
+		margin-top: 60px;
+	}
+	#texto-skills{
+		margin-top: 150px;
+	}
 	/*------ PORTFOLIO -------*/
 
 	/*------ INFORMACION -------*/
+	#info-anais{
+		font-size: 20px;
+		color: white;
+		padding: 15px;
+		padding-top: 120px;
+	}
 }
