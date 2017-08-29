@@ -166,7 +166,8 @@ background: -webkit-linear-gradient(left, rgba(201,188,4,1) 0%, rgba(247,33,0,1)
 background: -o-linear-gradient(left, rgba(201,188,4,1) 0%, rgba(247,33,0,1) 100%);
 background: -ms-linear-gradient(left, rgba(201,188,4,1) 0%, rgba(247,33,0,1) 100%);
 background: linear-gradient(to right, rgba(201,188,4,1) 0%, rgba(247,33,0,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9bc04', endColorstr='#f72100', GradientType=1 );height: 300px;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9bc04', endColorstr='#f72100', GradientType=1 );
+height: 300px;
 	z-index: -1;
 	position: relative;
 	top: 20px;
